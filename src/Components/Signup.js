@@ -1,17 +1,39 @@
 import React, { useState } from 'react'
-import { Navigate, Route, Routes, useNavigate } from 'react-router';
+import { BrowserRouter as Router, Routes, Route, Link,useNavigate } from 'react-router-dom'
 import Home from './Home';
+export const UserContext= React.createContext()
+export const UserContext2= React.createContext()
 export default function SignUp() {
-    const [name,setName]=useState({fname:'',lname:''});
-    const [email, setEmail] = useState('');    
-    const [pass, setPass] = useState('');
+    const [name,setName]=useState({fname:'',lname:'',email:'',pass:''});
+    
     const navigate = useNavigate();
     const navHome=()=>{
-        navigate('/home')
+        navigate('/sign-up/home')
     }
 
         return (
             <div>
+                <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+          <div className="container">
+            <Link className="navbar-brand" to={'/log-in'}>
+              BRILLIO
+            </Link>
+            <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul className="navbar-nav ml-auto">
+                <li className="nav-item">
+                  <Link className="nav-link" to={'/log-in'}>
+                    Login
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to={'/sign-up'}>
+                    Sign up
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
             <form onSubmit={navHome}>
                 <h3>Sign Up</h3>
                 <div className="mb-3">
@@ -41,9 +63,9 @@ export default function SignUp() {
                         type="email"
                         className="form-control"
                         placeholder="Enter email"
-                        value={email}
-                        onChange={(e) => setEmail({
-                            ...email,
+                        value={name.email}
+                        onChange={(e) => setName({
+                            ...name,
                             email: e.target.value
                         })}
                     />
@@ -54,9 +76,9 @@ export default function SignUp() {
                         type="password"
                         className="form-control"
                         placeholder="Enter password"
-                        value={pass}
-                        onChange={(e) => setPass({
-                            ...pass,
+                        value={name.pass}
+                        onChange={(e) => setName({
+                            ...name,
                             pass: e.target.value
                         })}
                     />
@@ -73,6 +95,9 @@ export default function SignUp() {
                     <Route path="/home" element={<Home />}></Route>
                 </Routes>
             </form>
+
+            {/* <Home names={name} /> */}
+            
             </div>
         )
     }
