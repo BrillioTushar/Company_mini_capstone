@@ -62,9 +62,9 @@ const Home=(props)=> {
                                         
                                         
                                         <Button variant="primary" onClick={mhandleShow}>
-                                        <h3>Name: {name.fname} {name.lname}</h3>
+                                        <h5>Name: {name.fname} {name.lname}</h5>
 
-                                        </Button>
+                                        </Button><br/><br/>
                                         <Modal show={mshow} onHide={mhandleClose}>
 
                                             <Modal.Header closeButton>
@@ -108,7 +108,11 @@ const Home=(props)=> {
                                             </Modal.Footer>
 
                                         </Modal>
-                                        <h5>Email: {name.id}</h5>
+                                        <Button variant="primary" >
+                                            <h5>Email: {name.id}</h5>
+
+                                        </Button><br/><br/>
+                                        
                                         <Button variant="primary" onClick={phandleShow}>
                                             Change Password
 
@@ -119,7 +123,7 @@ const Home=(props)=> {
                                             </Modal.Header>
                                             <Modal.Body>
                                                 <input 
-                                                type='text' 
+                                                type='password' 
                                                 value={name.pass} 
                                                 placeholder='New Password' 
                                                 onChange={(e)=>setName({...name,
