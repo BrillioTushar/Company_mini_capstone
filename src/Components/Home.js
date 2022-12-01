@@ -116,7 +116,7 @@ const Home=(props)=> {
                                         <Button variant="primary" onClick={phandleShow}>
                                             Change Password
 
-                                        </Button><br/>
+                                        </Button><br/><br/>
                                         <Modal show={pshow} onHide={phandleClose}>
                                             <Modal.Header closeButton>
                                                 <Modal.Title>Change Password</Modal.Title>
@@ -139,9 +139,13 @@ const Home=(props)=> {
                                             </Modal.Footer>
                                         </Modal>
  
-                                        <Link className="navbar-brand" to={'/sign-up'}>
-                                          Logout
-                                        </Link>
+                                        <Button variant="primary">
+                                            <Link className="navbar-brand" to={'/sign-up'}>
+                                            Logout
+                                            </Link>
+
+                                        </Button><br/>
+                                        
                                     </Offcanvas.Body>
                                 </Offcanvas>
 
