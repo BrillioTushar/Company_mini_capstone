@@ -5,24 +5,21 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Login from './Components/Login'
 import SignUp from './Components/SignUp'
 import Home from './Components/Home'
-import { Layouts } from './Components/Layouts';
-
 function App() {
   return (
     <Router>
       <div className="App">
         
         <div className="auth-wrapper">
-          <div className="auth-inner">
+          <div className="auth-inner" >
             <Routes>
               <Route exact path="/" element={<Login />} />
               <Route path="/log-in" element={<Login />} />
               <Route path="/sign-up" element={<SignUp />} />
-              <Route path="/sign-up/home" element={<Home />} />
-                
+              <Route path="/home" element={<Home />} />
             </Routes>
           </div>
-<layouts/>
+          
         </div>
       </div>
     </Router>
