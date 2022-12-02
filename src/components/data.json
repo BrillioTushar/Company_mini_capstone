@@ -1,0 +1,313 @@
+{
+    "id": 1,
+    "name": "Javascript Quiz",
+    "description": "Javascript Quiz (contains web development, Javascript, ES 5/6/7, etc.)",
+    "questions": [
+        {
+            "id": 0,
+            "name": "Which of the following command is used to create react-js-app ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 0,
+                    "name": "npx create-react-app appname",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 0,
+                    "name": "npm install create-react-app",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 0,
+                    "name": "npx install create-react-app -g",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 0,
+                    "name": "install - l create-react-app",
+                    "isAnswer": false
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "In React.js which one of the following is used to create a class for Inheritance ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1059,
+                    "questionId": 1,
+                    "name": "create",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1060,
+                    "questionId": 1,
+                    "name": "Extends",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1061,
+                    "questionId": 1,
+                    "name": "inherits",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1062,
+                    "questionId": 1,
+                    "name": "delete",
+                    "isAnswer": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "What is the default port number in which the application run ",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1063,
+                    "questionId": 2,
+                    "name": "3000",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1064,
+                    "questionId": 2,
+                    "name": "8080",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1065,
+                    "questionId": 2,
+                    "name": "3001",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1066,
+                    "questionId": 2,
+                    "name": "9000",
+                    "isAnswer": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Which of the following valid component return type of React ?",
+            "questionTypeId": 3,
+            "options": [
+                {
+                    "id": 1067,
+                    "questionId": 3,
+                    "name": "2",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1068,
+                    "questionId": 3,
+                    "name": "5",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1069,
+                    "questionId": 3,
+                    "name": "1",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1070,
+                    "questionId": 3,
+                    "name": "3",
+                    "isAnswer": false
+                }
+            ]
+        },{
+            "id": 4,
+            "name": "which of the following is a way to handle data in React.js ?",
+            "questionTypeId": 4,
+            "options": [
+                {
+                    "id": 1071,
+                    "questionId": 4,
+                    "name": "State & Props",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1072,
+                    "questionId": 4,
+                    "name": "Services & Components",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1073,
+                    "questionId": 4,
+                    "name": "State & Services",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1074,
+                    "questionId": 4,
+                    "name": "State & Component",
+                    "isAnswer": false
+                }
+            ]
+        },{
+            "id": 5,
+            "name": "Which of the following is must for the API in React.js ?",
+            "questionTypeId": 5,
+            "options": [
+                {
+                    "id": 1075,
+                    "questionId": 5,
+                    "name": "SetinitialComponent",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1076,
+                    "questionId": 5,
+                    "name": "render",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1077,
+                    "questionId": 5,
+                    "name": "renderComponent",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1078,
+                    "questionId": 5,
+                    "name": "All of the Above",
+                    "isAnswer": false
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "In React.js, how we can pass the data from one component to another in React.js ?",
+            "questionTypeId": 6,
+            "options": [
+                {
+                    "id": 1079,
+                    "questionId": 6,
+                    "name": "SetState",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1080,
+                    "questionId": 6,
+                    "name": "Render with arguments",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1081,
+                    "questionId": 6,
+                    "name": "PropTypes",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1082,
+                    "questionId": 6,
+                    "name": "Props",
+                    "isAnswer": true
+                }
+            ]
+        },{
+            "id": 7,
+            "name": "Which of the following function is true about changing the state in React.js ?",
+            "questionTypeId": 7,
+            "options": [
+                {
+                    "id": 1083,
+                    "questionId": 7,
+                    "name": "this.State{}",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1084,
+                    "questionId": 7,
+                    "name": "this.setState",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1085,
+                    "questionId": 7,
+                    "name": "this.setChangeState",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1086,
+                    "questionId": 7,
+                    "name": "All of the above",
+                    "isAnswer": false
+                }
+            ]
+        },{
+            "id": 8,
+            "name": "Which of the following method is true about referring parent class in React.js ?",
+            "questionTypeId": 8,
+            "options": [
+                {
+                    "id": 1087,
+                    "questionId": 8,
+                    "name": "self()",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1088,
+                    "questionId": 8,
+                    "name": "inherits()",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1089,
+                    "questionId": 8,
+                    "name": "this()",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1090,
+                    "questionId": 8,
+                    "name": "super()",
+                    "isAnswer": true
+                }
+            ]
+        },{
+            "id": 9,
+            "name": "What does myReactApp refer to in the following command?'npx create-react-app myReactApp'",
+            "questionTypeId": 9,
+            "options": [
+                {
+                    "id": 1091,
+                    "questionId": 9,
+                    "name": "The directory to create the new app in",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1092,
+                    "questionId": 9,
+                    "name": "A reference to existing app",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1093,
+                    "questionId": 9,
+                    "name": "The name you want to use for the new app",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1094,
+                    "questionId": 9,
+                    "name": "The type of app to create",
+                    "isAnswer": false
+                }
+            ]
+        }
+
+    ]
+}
