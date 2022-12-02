@@ -1,0 +1,13 @@
+.quiz-outer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.spin-wheel{
+    background-color: white;
+}
+.question-page{
+    background-color: chocolate;
+    width: 30%;
+}
